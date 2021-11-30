@@ -1,0 +1,27 @@
+.NavBar{
+    padding: 1em 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: unset;
+
+        &:hover{
+            text-decoration: unset;
+        }
+    }
+
+    ul {
+        margin: unset;
+        padding: unset;
+        list-style: none;
+    }
+
+    .title{
+        font-size: 1.5em;
+    }
+}
