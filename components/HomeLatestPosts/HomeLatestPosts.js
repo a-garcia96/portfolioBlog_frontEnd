@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import PostPreview from "./PostPreview";
+import PostPreview from "../PostPreview/PostPreview";
 
 function HomeLatestPosts ({posts}) {
     const [latestPosts, setLatestPosts] = useState([]);

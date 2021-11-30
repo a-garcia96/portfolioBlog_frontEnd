@@ -6,12 +6,17 @@ function NavBar() {
         <nav className="NavBar">
             <div className="container">
                 <Link href="/">
-                    <a className="title">Socal Azure Administrator</a>
+                    <a className="title">The Socal Azure Admin</a>
                 </Link>
                 <ul>
                     <li>
+                        <Link href="/about">
+                            <a>About Me</a>
+                        </Link>
+                    </li>
+                    <li>
                         <Link href="/posts">
-                            <a>All Posts</a>
+                            <a>Blog</a>
                         </Link>
                     </li>
                 </ul>

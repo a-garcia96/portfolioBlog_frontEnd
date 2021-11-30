@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import PostPreview from "./PostPreview";
+import PostPreview from "../PostPreview/PostPreview";
 
 function AllPosts ({posts}) {
     function renderPostPreviews() {

@@ -1,28 +1,32 @@
 import axios from 'axios';
-import Head from 'next/head'
-import Image from 'next/image'
-import HomeHeader from '../components/HomeHeader';
-import HomeLatestPosts from '../components/HomeLatestPosts';
+import HomeHeader from '../components/HomeHeader/HomeHeader';
+import HomeLatestPosts from '../components/HomeLatestPosts/HomeLatestPosts';
 
-function Home({posts}) {
-  
-  return(
+function Home(props) {
+
+  return (
     <>
-    <HomeHeader />
-    <HomeLatestPosts posts={posts}/>
+      <HomeHeader homeData={props.homeData} />
+      <div className="container">
+        <HomeLatestPosts posts={props.posts} />
+      </div>
+
     </>
   );
 }
 
 export default Home;
 
-export async function getStaticProps(){
+export async function getStaticProps() {
+  const homeRes = await axios.get("http://localhost:1337/home");
   const postsRes = await axios.get("http://localhost:1337/posts");
+
 
 
   return {
     props: {
-      posts: postsRes.data
+      posts: postsRes.data,
+      homeData: homeRes.data
     }
   }
 }

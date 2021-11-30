@@ -1,6 +1,8 @@
-.NavBar{
+.NavBar {
     padding: 1em 0;
-    .container{
+    background-color: rgba(154, 182, 202, 1);
+    color: rgba(245, 245, 245, 0.8);
+    .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -10,7 +12,7 @@
         color: inherit;
         text-decoration: unset;
 
-        &:hover{
+        &:hover {
             text-decoration: unset;
         }
     }
@@ -19,9 +21,13 @@
         margin: unset;
         padding: unset;
         list-style: none;
+        li {
+            display: inline-block;
+            margin-left: 1em;
+        }
     }
 
-    .title{
+    .title {
         font-size: 1.5em;
     }
 }
