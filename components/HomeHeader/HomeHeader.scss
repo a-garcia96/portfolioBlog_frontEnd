@@ -1,13 +1,79 @@
-section{
-    padding: 9em 0;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+.homeHeader {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 
-    h1{
-        color: white
+    h1 {
+        color: white;
+        margin-bottom: unset;
     }
-    
-    p{
+
+    p {
         color: rgba(239, 239, 239, 0.8) !important;
     }
+    .Iam {
+        padding: 6em 5em;
+
+        b {
+            float: left;
+            overflow: hidden;
+            position: relative;
+            height: 50px;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .innerIam {
+            display: inline-block;
+            color: white;
+            position: relative;
+            white-space: nowrap;
+            top: 20;
+            left: 0;
+            font-size: 2em;
+
+            /*animation*/
+            -webkit-animation: move 5s;
+            -moz-animation: move 5s;
+            -ms-animation: move 5s;
+            -o-animation: move 5s;
+            animation: move 5s;
+            /*animation-iteration-count*/
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -ms-animation-iteration-count: infinite;
+            -o-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            /*animation-delay*/
+            -webkit-animation-delay: 1s;
+            -moz-animation-delay: 1s;
+            -ms-animation-delay: 1s;
+            -o-animation-delay: 1s;
+            animation-delay: 1s;
+        }
+    }
+}
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+    33% {
+        top: -50px;
+    }
+    66% {
+        top: -100px;
+    }
+
+    99% {
+        top: 0px;
+    }
+    // 60% {
+    //     top: -150px;
+    // }
+    // 80% {
+    //     top: -200px;
+    // }
+    // 100% {
+    //     top: 0px;
+    // }
 }
