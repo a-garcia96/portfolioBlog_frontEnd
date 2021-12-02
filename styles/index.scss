@@ -1,6 +1,8 @@
-@import "./common.scss";
+// @import "./common.scss";
+@import "~bootstrap/scss/bootstrap";
+
 
 // COMPONENTS
 @import "../components/NavBar/NavBar.scss";
-@import "../components/PostPreview/PostPreview.scss";
+// @import "../components/PostPreview/PostPreview.scss";
 @import "../components/HomeHeader/HomeHeader.scss"

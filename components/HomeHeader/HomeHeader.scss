@@ -1,4 +1,13 @@
-.jumbotron{
-    max-height: 35%;
-    padding: 1.5em 0;
+section{
+    padding: 9em 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    h1{
+        color: white
+    }
+    
+    p{
+        color: rgba(239, 239, 239, 0.8) !important;
+    }
 }
