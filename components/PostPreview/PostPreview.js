@@ -1,15 +1,23 @@
 import React from "react";
-import Link from "next/link"
+import Link from "next/link";
 
-function PostPreview({post}) {
+import Card from "react-bootstrap/Card";
+import CardGroup from 'react-bootstrap/CardGroup';
+
+export default function PostPreview({ post }) {
     return (
         <Link href={`/posts/${post.id}`}>
-        <div className="postPreview">
-            <h3>{post.title}</h3>
-            <p>{post.description}</p>
-        </div>
+            <CardGroup>
+                <Card>
+                    <Card.Body>
+                        <Card.Title>{post.title}</Card.Title>
+                        <Card.Subtitle>{post.id}</Card.Subtitle>
+                        <Card.Text>
+                            {post.description}
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </CardGroup>
         </Link>
     )
 }
-
-export default PostPreview
