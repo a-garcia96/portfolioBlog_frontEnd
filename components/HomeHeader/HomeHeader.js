@@ -15,6 +15,7 @@ function HomeHeader(props) {
                             <div className="lead innerIam">
                                 Azure<br />
                                 Intune<br />
+                                PowerShell<br />
                                 Web Development
                             </div>
                         </b>
