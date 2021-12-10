@@ -18,8 +18,8 @@ function Home(props) {
 export default Home;
 
 export async function getStaticProps() {
-  const homeRes = await axios.get("http://localhost:1337/home");
-  const postsRes = await axios.get("http://localhost:1337/posts");
+  const homeRes = await axios.get(`${process.env.STRAPI_URL}/home`);
+  const postsRes = await axios.get(`${process.env.STRAPI_URL}/posts`);
 
 
 
