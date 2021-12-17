@@ -1,4 +1,6 @@
 import axios from 'axios';
+import Head from "next/head";
+
 import HomeHeader from '../components/HomeHeader/HomeHeader';
 import HomeLatestPosts from '../components/HomeLatestPosts/HomeLatestPosts';
 
@@ -6,6 +8,10 @@ function Home(props) {
 
   return (
     <>
+      <Head>
+        <title>{props.homeData.title}</title>
+        <meta name="description" content={props.homeData.description} />
+      </Head>
       <HomeHeader homeData={props.homeData} />
       <div className="container">
         <HomeLatestPosts posts={props.posts} />
