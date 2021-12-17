@@ -4,6 +4,10 @@ import Head from "next/head";
 import HomeHeader from '../components/HomeHeader/HomeHeader';
 import HomeLatestPosts from '../components/HomeLatestPosts/HomeLatestPosts';
 
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col"
+
 function Home(props) {
 
   return (
@@ -13,9 +17,19 @@ function Home(props) {
         <meta name="description" content={props.homeData.description} />
       </Head>
       <HomeHeader homeData={props.homeData} />
-      <div className="container">
-        <HomeLatestPosts posts={props.posts} />
-      </div>
+      <Container>
+        <section>
+          <Row>
+            <h2>{props.homeData.section1}</h2>
+            <article>{props.homeData.section1body}</article>
+          </Row>
+        </section>
+        <section>
+          <h2>{props.homeData.section2}</h2>
+          <HomeLatestPosts posts={props.posts} />
+        </section>
+
+      </Container>
 
     </>
   );
