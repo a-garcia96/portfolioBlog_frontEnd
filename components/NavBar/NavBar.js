@@ -38,6 +38,13 @@ function NavBar() {
                                 </Link>
                             </Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link>
+                                <Link href="/resume">
+                                    Resume
+                                </Link>
+                            </Nav.Link>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
