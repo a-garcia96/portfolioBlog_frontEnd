@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/image'
 
-import profilePhoto from "../../public/images/profilePhoto.jpg"
+// import profilePhoto from "../../public/images/profilePhoto.jpg"
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row"
@@ -16,7 +16,7 @@ function HomeHeader({ homeData }) {
                     <Col className="col-lg-6 col-md-8 mx-auto">
                         <div className="center-utility">
                             <div className="profile-frame">
-                                <Image alt="Alex Garcia" height={250} width={250} quality={50} objectFit="cover" priority src={profilePhoto} />
+                                {/* <Image alt="Alex Garcia" height={250} width={250} quality={50} objectFit="cover" priority src={profilePhoto} /> */}
                             </div>
                         </div>
                     </Col>
