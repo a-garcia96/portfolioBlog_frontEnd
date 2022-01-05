@@ -10,6 +10,7 @@ export default function About(props) {
     return (
         <div className="container">
             <h1>{props.aboutData.title}</h1>
+            <h1>About</h1>
             <section dangerouslySetInnerHTML={{__html: htmlContent}}></section>
         </div>
     )
