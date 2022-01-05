@@ -11,4 +11,5 @@ describe('Navigation', () => {
   
       // The new page should contain an h1 with "About page"
       cy.get('h1').contains('About')
+    })
   })
