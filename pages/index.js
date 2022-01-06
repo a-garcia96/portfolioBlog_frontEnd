@@ -1,4 +1,5 @@
 import axios from 'axios';
+import https from "https";
 import Head from "next/head";
 
 import HomeHeader from '../components/HomeHeader/HomeHeader';
@@ -7,6 +8,10 @@ import HomeLatestPosts from '../components/HomeLatestPosts/HomeLatestPosts';
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col"
+
+axios.defaults.httpsAgent = new https.Agent({
+  rejectUnauthorized: false,
+});
 
 function Home(props) {
 

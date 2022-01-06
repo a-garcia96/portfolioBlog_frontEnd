@@ -1,6 +1,12 @@
 import React from "react";
 import axios from "axios";
+import https from "https";
 import MarkdownIt from "markdown-it";
+
+
+axios.defaults.httpsAgent = new https.Agent({
+    rejectUnauthorized: false,
+  });
 
 export default function About(props) {
 

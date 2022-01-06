@@ -1,6 +1,11 @@
 import React from "react";
 import axios from "axios";
+import https from "https";
 import AllPosts from "../../components/AllPosts/AllPosts";
+
+axios.defaults.httpsAgent = new https.Agent({
+  rejectUnauthorized: false,
+});
 
 function Posts({posts}) {
     return (
