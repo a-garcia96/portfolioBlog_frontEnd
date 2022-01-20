@@ -26,7 +26,7 @@ function Home(props) {
         <section>
           <Row>
             <h2>{props.homeData.section1}</h2>
-            <article>{props.homeData.section1body}</article>
+            <article><p>{props.homeData.section1body}</p></article>
           </Row>
         </section>
         <section>
