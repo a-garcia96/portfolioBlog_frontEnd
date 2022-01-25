@@ -5,10 +5,6 @@ import Head from "next/head";
 import HomeHeader from '../components/HomeHeader/HomeHeader';
 import HomeLatestPosts from '../components/HomeLatestPosts/HomeLatestPosts';
 
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col"
-
 axios.defaults.httpsAgent = new https.Agent({
   rejectUnauthorized: false,
 });
@@ -22,20 +18,16 @@ function Home(props) {
         <meta name="description" content={props.homeData.description} />
       </Head>
       <HomeHeader homeData={props.homeData} />
-      <Container>
+      <div className='container'>
         <section>
-          <Row>
-            <h2>{props.homeData.section1}</h2>
-            <article><p>{props.homeData.section1body}</p></article>
-          </Row>
+          <h2>{props.homeData.section1}</h2>
+          <article><p>{props.homeData.section1body}</p></article>
         </section>
         <section>
           <h2>{props.homeData.section2}</h2>
           <HomeLatestPosts posts={props.posts} />
         </section>
-
-      </Container>
-
+      </div>
     </>
   );
 }

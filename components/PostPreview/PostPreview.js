@@ -7,17 +7,9 @@ import CardGroup from 'react-bootstrap/CardGroup';
 export default function PostPreview({ post }) {
     return (
         <Link href={`/posts/${post.id}`}>
-            <CardGroup>
-                <Card>
-                    <Card.Body>
-                        <Card.Title>{post.title}</Card.Title>
-                        <Card.Subtitle>{post.id}</Card.Subtitle>
-                        <Card.Text>
-                            {post.description}
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </CardGroup>
+            <h2>{post.title}</h2>
+            <h3>{post.id}</h3>
+            <p>{post.description}</p>
         </Link>
     )
 }
