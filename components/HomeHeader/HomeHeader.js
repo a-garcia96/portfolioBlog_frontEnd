@@ -1,5 +1,5 @@
 import React from "react";
-import Image from 'next/image'
+import Link from "next/link"
 
 function HomeHeader({ homeData }) {
 
@@ -10,10 +10,11 @@ function HomeHeader({ homeData }) {
                     <h1>
                         <span className="header-text-greeting"><span className="header-text-highlight">👋🏽 Hello there,</span> my name is</span>
                         <span className="header-text-name">Alejandro Garcia.</span>
-                        <span className="header-text-title">I'm a <span className="header-text-highlight">system administrator.</span></span>
+                        <span className="header-text-title">I'm a <span className="header-text-highlight">Systems Administrator.</span></span>
                     </h1>
-                    <p className="header-text-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsum incidunt architecto obcaecati! Nemo molestiae non quidem! Similique, aliquam! Quas neque illum culpa consequatur autem? Cum saepe iure pariatur error?</p>
-                    <button className="btn-header">See my experience</button>
+                    <p className="header-text-desc">I specialize in Intune, Azure and PowerShell. Currently I am focused on getting into the world of DevOps and learning about Terraform and Ansible.</p>
+                    <button className="btn-header"><Link href="/resume">See my experience</Link></button>
+                    
                 </div>
             </div>
         </section>

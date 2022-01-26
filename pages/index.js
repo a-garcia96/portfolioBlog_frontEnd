@@ -18,16 +18,6 @@ function Home(props) {
         <meta name="description" content={props.homeData.description} />
       </Head>
       <HomeHeader homeData={props.homeData} />
-      <div className='container'>
-        <section>
-          <h2>{props.homeData.section1}</h2>
-          <article><p>{props.homeData.section1body}</p></article>
-        </section>
-        <section>
-          <h2>{props.homeData.section2}</h2>
-          <HomeLatestPosts posts={props.posts} />
-        </section>
-      </div>
     </>
   );
 }

@@ -1,10 +1,10 @@
 .navbar {
     background:#0A192E;
-    height: 6rem;
+    height: 5vh;
 
     ul {
         list-style: none;
-        height: 6rem;
+        height: 5rem;
         display: flex;
         flex-direction: row;
         justify-content: end;
@@ -23,7 +23,7 @@
 
         a:hover{
             color: red;
-            animation: highlightHover 1s ease-in;
+            animation: highlightHover .3s ease-in;
         }
     }
 }
