@@ -1,31 +1,30 @@
 .navbar {
-    background:#234;
+    background:#0A192E;
     height: 6rem;
-    position: relative;
 
     ul {
         list-style: none;
+        height: 6rem;
         display: flex;
         flex-direction: row;
-        justify-content: right;
+        justify-content: end;
         align-items: center;
-        height: 100%;
     }
 
 
     .navbar-link {
         margin-right: 2rem;
-
         a {
+            
             text-decoration: none;
             color: #fff;
-            list-style: none;
             font-size: 1.6rem;
         }
-    }
 
-    .navbar-link:hover {
-        color: red;
+        a:hover{
+            color: red;
+            animation: highlightHover 1s ease-in;
+        }
     }
 }
 
@@ -36,5 +35,23 @@
         &:hover{
             color:red;
         }
+    }
+}
+
+@keyframes highlightHover {
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: red;
+    }
+
+    75% {
+        color: white;
+    }
+
+    100% {
+        color: red;
     }
 }
