@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image"
 
 export default function custom404() {
     return (
@@ -7,7 +6,7 @@ export default function custom404() {
             <div className="fourohfour-text-box">
                 <h1>Uh Oh!</h1>
                 <hr />
-                <p>This site is still being built. <br/> I promise you'll get more soon!</p>
+                <p>This site is still being built. <br/> More coming soon!</p>
             </div>
         </div>
     );
