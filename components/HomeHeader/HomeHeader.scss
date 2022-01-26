@@ -6,6 +6,10 @@
     position: relative;
     backface-visibility: hidden;
 
+    .container {
+        width: 85vw;
+    }
+
     .header-text {
         position: absolute;
         top: 50%;
@@ -13,14 +17,13 @@
     }
 
     .header-text-greeting {
-        font-size: .5em;
+        font-size: 2rem;
         display: block;
-        // margin-bottom: -45px;
         animation: moveInRight 1s ease-out;
     }
 
     .header-text-name {
-        font-size: 2em;
+        font-size: 8rem;
         display: block;
         text-transform: uppercase;
         animation: moveInLeft 1s ease-out 1s;
@@ -36,7 +39,7 @@
 
     .header-text-title {
         // margin-top: -45px;
-        font-size: 1em;
+        font-size: 2rem;
         display: block;
         animation: moveInRight 1s ease-out 2s;
         animation-fill-mode: backwards;
