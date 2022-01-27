@@ -100,3 +100,12 @@
         transform: translate(0);
     }
 }
+
+@media screen and (max-width: 750px) {
+    .home-header {
+        .container {
+            margin: unset;
+            padding: 0 5rem;
+        }
+    }
+}
