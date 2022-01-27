@@ -15,25 +15,18 @@
     .navbar-link {
         margin-right: 2rem;
         a {
-            
+            text-transform: uppercase;
+            vertical-align: middle;
             text-decoration: none;
             color: #fff;
             font-size: 1.6rem;
+            padding: 1rem 2rem;
         }
 
         a:hover{
             color: lighten($color-secondary, 40%);
+            border-bottom: 3px solid lighten($color-secondary, 40%);
             animation: highlightHover .3s ease-in;
-        }
-    }
-}
-
-.nav-link{
-    a{
-        text-decoration: none;
-        color: white;
-        &:hover{
-            color: lighten($color-secondary, 40%);
         }
     }
 }
@@ -53,5 +46,12 @@
 
     100% {
         color: lighten($color-secondary, 40%);
+        border-bottom: 3px solid lighten($color-secondary, 40%);
+    }
+}
+
+@media screen and (max-width: 75rem) {
+    .navbar {
+        display: none;
     }
 }

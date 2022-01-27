@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link"
 
+import NavBar from "../NavBar/NavBar"
+
 function HomeHeader({ homeData }) {
 
     return (
@@ -9,6 +11,7 @@ function HomeHeader({ homeData }) {
             <div className="particle particle-2"></div>
             <div className="particle particle-3"></div>
             <div className="particle particle-4"></div>
+            <NavBar />
             <div className="container">
                 <div className="header-text">
                     <h1>
