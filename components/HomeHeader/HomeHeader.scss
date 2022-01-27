@@ -68,7 +68,7 @@
     }
 
     .header-text-highlight {
-        color: red;
+        color: lighten($color-secondary, 40%);
     }
 }
 

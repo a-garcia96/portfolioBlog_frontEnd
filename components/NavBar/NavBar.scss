@@ -22,7 +22,7 @@
         }
 
         a:hover{
-            color: red;
+            color: lighten($color-secondary, 40%);
             animation: highlightHover .3s ease-in;
         }
     }
@@ -33,7 +33,7 @@
         text-decoration: none;
         color: white;
         &:hover{
-            color:red;
+            color: lighten($color-secondary, 40%);
         }
     }
 }
@@ -44,7 +44,7 @@
     }
 
     25% {
-        color: red;
+        color: lighten($color-secondary, 40%);
     }
 
     75% {
@@ -52,6 +52,6 @@
     }
 
     100% {
-        color: red;
+        color: lighten($color-secondary, 40%);
     }
 }
