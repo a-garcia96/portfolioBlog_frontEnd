@@ -6,20 +6,20 @@
     color: #fff;
     position: relative;
     backface-visibility: hidden;
+    overflow: hidden;
 
     .header-text {
         position: absolute;
         top: 50%;
         transform: translate(0, -50%);
-        letter-spacing: .2rem;
 
         h1 {
-            margin-bottom: 5rem;
+            margin-bottom: 2rem;
         }
     }
 
     .header-text-greeting {
-        font-size: 3rem;
+        font-size: 1.6rem;
         display: block;
         animation: moveInRight 1s ease-out;
     }
@@ -31,15 +31,8 @@
         animation-fill-mode: backwards;
     }
 
-    .header-text-name::before {
-        content: '';
-        background-color: #317eeb;
-        width: 20rem;
-        height: auto;
-    }
-
     .header-text-title {
-        // margin-top: -45px;
+        margin-top: 3rem;
         font-size: 4rem;
         display: block;
         animation: moveInRight 1s ease-out 2s;
@@ -50,7 +43,7 @@
         width: 40rem;
         animation: moveInBottom 1s ease-out 3s;
         animation-fill-mode: backwards;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .btn-header {
