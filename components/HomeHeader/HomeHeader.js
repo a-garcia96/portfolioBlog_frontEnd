@@ -20,7 +20,7 @@ function HomeHeader({ homeData }) {
                         <span className="header-text-title">I build <span className="header-text-highlight">infrastructure for the web.</span></span>
                     </h1>
                     <p className="header-text-desc">I specialize in Intune, Azure and PowerShell. Currently I am focused on getting into the world of DevOps and adopting Terraform and Ansible to build automated infrastructure deployment pipelines.</p>
-                    <button className="btn-header"><Link href="/resume">See my experience</Link></button>
+                    <button className="btn-header"><Link href="/#">See my experience</Link></button>
                 </div>
             </div>
         </section>
