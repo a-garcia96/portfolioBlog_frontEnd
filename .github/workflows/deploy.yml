@@ -17,6 +17,6 @@ jobs:
         port: 22
         script: |
           cd /home/agarcia/portfolioBlog_frontEnd
+          git fetch
           git pull origin main
           git status
-          ip a
