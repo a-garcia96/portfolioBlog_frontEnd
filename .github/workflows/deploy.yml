@@ -8,7 +8,6 @@ jobs:
     name: deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
 
     - name: test SSH connection
       uses: appleboy/ssh-action@master
@@ -16,7 +15,6 @@ jobs:
         host: ${{secrets.SSH_HOST}}
         username: ${{secrets.SSH_USERNAME}}
         password: ${{secrets.ID_RSA_GITHUB_FRONTEND}}
-        port: 22
         script: |
           whoami
           hostname
