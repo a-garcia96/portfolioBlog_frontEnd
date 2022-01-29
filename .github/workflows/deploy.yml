@@ -18,5 +18,6 @@ jobs:
         password: ${{secrets.ID_RSA_GITHUB_FRONTEND}}
         port: 22
         script: |
+          whoami
           cd ~/portfolioBlog_frontEnd
           ls
