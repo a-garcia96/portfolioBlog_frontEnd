@@ -16,8 +16,5 @@ jobs:
         password: ${{secrets.ID_RSA_GITHUB_FRONTEND}}
         port: 22
         script: |
-          ls /home/
-          cd /home/${{secrets.SSH_USERNAME}}/portfolioBlog_frontEnd
-          git fetch
-          git pull origin main
-          git status
+          cd /home/
+          ls
