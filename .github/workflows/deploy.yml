@@ -19,3 +19,4 @@ jobs:
           cd /home/agarcia/portfolioBlog_frontEnd
           git pull origin main
           git status
+          ip a
