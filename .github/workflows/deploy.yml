@@ -13,6 +13,7 @@ jobs:
       with:
         host: ${{secrets.SSH_HOST}}
         username: ${{secrets.SSH_USERNAME}}
+        password: ${{secrets.ID_RSA_GUTHUB_FRONTEND}}
         port: 22
         script:
           cd /home/agarcia/portfolioBlog_frontEnd
