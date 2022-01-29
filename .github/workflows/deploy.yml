@@ -17,6 +17,10 @@ jobs:
         password: ${{secrets.ID_RSA_GITHUB_FRONTEND}}
         port: 2222
         script: |
-          whoami
-          hostname
-          ls /home/
+          pm2 stop blog
+          cd /home/agarcia/portfolioBlog_frontEnd
+          git fetch
+          git pull
+          git status
+          npm run build
+          pm2 start blog
