@@ -3,18 +3,18 @@ on:
   push:
     branches: [main]
 
-  jobs:
-    job_one:
-      name: deploy
-      runs-on: ubuntu-latest
-      steps:
-      - name: test SSH connection
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{secrets.SSH_HOST}}
-          username: ${{secrets.SSH_USERNAME}}
-          port: 22
-          script:
-            cd /home/agarcia/portfolioBlog_frontEnd
-            git pull origin main
-            git status
+jobs:
+  job_one:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: test SSH connection
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{secrets.SSH_HOST}}
+        username: ${{secrets.SSH_USERNAME}}
+        port: 22
+        script:
+          cd /home/agarcia/portfolioBlog_frontEnd
+          git pull origin main
+          git status
