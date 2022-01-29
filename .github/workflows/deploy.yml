@@ -15,7 +15,7 @@ jobs:
         username: ${{secrets.SSH_USERNAME}}
         password: ${{secrets.ID_RSA_GUTHUB_FRONTEND}}
         port: 22
-        script:
+        script: |
           cd /home/agarcia/portfolioBlog_frontEnd
           git pull origin main
           git status
