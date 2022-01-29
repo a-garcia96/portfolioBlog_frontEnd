@@ -19,7 +19,7 @@ function HomeHeader({ homeData }) {
                         <span className="header-text-name">Alex Garcia.</span>
                         <span className="header-text-title">I build <span className="header-text-highlight">infrastructure for the web.</span></span>
                     </h1>
-                    <p className="header-text-desc">I'm a system administrator specializing in Microsoft products such as Intune, Azure and PowerShell. My current focus is to expand into DevOps to build automated pipelines for application infrastructure deployments.</p>
+                    <p className="header-text-desc">I am a system administrator specializing in Microsoft products such as Intune, Azure and PowerShell. My current focus is to expand into DevOps to build automated pipelines for application infrastructure deployments.</p>
                     <button className="btn-header"><Link href="/#">See my experience</Link></button>
                 </div>
             </div>
