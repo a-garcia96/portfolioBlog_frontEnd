@@ -16,5 +16,5 @@ jobs:
         password: ${{secrets.ID_RSA_GITHUB_FRONTEND}}
         port: 22
         script: |
-          cd /home/
+          cd ~/portfolioBlog_frontEnd
           ls
