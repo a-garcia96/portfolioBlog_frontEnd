@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: test SSH connection
+    - name: Deploy blog update
       uses: appleboy/ssh-action@master
       with:
         host: ${{secrets.SSH_HOST}}
