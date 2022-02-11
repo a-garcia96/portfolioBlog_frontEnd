@@ -18,6 +18,11 @@ function Home(props) {
         <meta name="description" content={props.homeData.description} />
       </Head>
       <HomeHeader homeData={props.homeData} />
+      <section>
+        <div className='container'>
+          <h2>About Me</h2>
+        </div>
+      </section>
     </>
   );
 }
