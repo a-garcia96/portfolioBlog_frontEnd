@@ -18,6 +18,12 @@ function Home(props) {
         <meta name="description" content={props.homeData.description} />
       </Head>
       <HomeHeader homeData={props.homeData} />
+      <section>
+        <h2>ABT</h2>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A lacus vestibulum sed arcu non odio euismod. Nisi est sit amet facilisis. Sit amet porttitor eget dolor morbi non arcu risus. Eleifend quam adipiscing vitae proin sagittis nisl. Congue quisque egestas diam in arcu cursus euismod. At in tellus integer feugiat scelerisque. Nunc eget lorem dolor sed viverra ipsum nunc. Imperdiet massa tincidunt nunc pulvinar. Justo nec ultrices dui sapien eget. A arcu cursus vitae congue mauris rhoncus.
+        </p>
+      </section>
     </>
   );
 }
