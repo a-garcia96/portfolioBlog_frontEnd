@@ -21,14 +21,15 @@
     .header-text-greeting {
         font-size: 1.6rem;
         display: block;
-        animation: moveInRight 1s ease-out;
+        animation: moveInRight .5s ease-out;
+        animation-fill-mode: backwards;
         will-change: transform, opacity;
     }
 
     .header-text-name {
         font-size: 6rem;
         display: block;
-        animation: moveInLeft 1s ease-out 1s;
+        animation: moveInRight .5s ease-out;
         animation-fill-mode: backwards;
         will-change: transform, opacity;
     }
@@ -37,21 +38,21 @@
         margin-top: 3rem;
         font-size: 4rem;
         display: block;
-        animation: moveInRight 1s ease-out 2s;
+        animation: moveInLeft .5s ease-out 1s;
         animation-fill-mode: backwards;
         will-change: transform, opacity;
     }
 
     .header-text-desc {
         width: 40rem;
-        animation: moveInBottom 1s ease-out 3s;
+        animation: moveInBottom .5s ease-out 2s;
         animation-fill-mode: backwards;
         margin-bottom: 2rem;
         will-change: transform, opacity;
     }
 
     .btn-header {
-        animation: moveInBottom 1s ease-out 3s;
+        animation: moveInBottom 1s ease-out 2s;
         animation-fill-mode: backwards;
         will-change: transform, opacity;
         border-radius: 10rem;
