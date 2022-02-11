@@ -53,11 +53,11 @@ $time-4: 200s;
   background: transparent;
 }
 
-.particle:after {
-  position: absolute;
-  content: "";
-  top: $spacing;
-}
+// .particle:after {
+//   position: absolute;
+//   content: "";
+//   top: $spacing;
+// }
 
 .particle-1 {
   animation: animParticle $time-1 linear infinite;
