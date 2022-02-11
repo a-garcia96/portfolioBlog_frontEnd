@@ -1,8 +1,10 @@
 import axios from 'axios';
 import https from "https";
-import Head from "next/head";
+import Head from 'next/head';
+import Image from 'next/image';
 
 import HomeHeader from '../components/HomeHeader/HomeHeader';
+import ToolBelt from '../components/ToolBelt/ToolBelt';
 import HomeLatestPosts from '../components/HomeLatestPosts/HomeLatestPosts';
 
 axios.defaults.httpsAgent = new https.Agent({
@@ -21,7 +23,10 @@ function Home(props) {
       <section>
         <div className='container'>
           <h2>ABT</h2>
+          <img src='https://via.placeholder.com/350/fffffff' alt='profile photo'></img>
+          
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A lacus vestibulum sed arcu non odio euismod. Nisi est sit amet facilisis. Sit amet porttitor eget dolor morbi non arcu risus. Eleifend quam adipiscing vitae proin sagittis nisl. Congue quisque egestas diam in arcu cursus euismod. At in tellus integer feugiat scelerisque. Nunc eget lorem dolor sed viverra ipsum nunc. Imperdiet massa tincidunt nunc pulvinar. Justo nec ultrices dui sapien eget. A arcu cursus vitae congue mauris rhoncus.</p>
+          <ToolBelt />
         </div>
       </section>
     </>
