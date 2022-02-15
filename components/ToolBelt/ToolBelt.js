@@ -45,16 +45,6 @@ function ToolBelt() {
                 </div>
                 <div className="col-1-of-6">
                     <div className="u-text-center">
-                        <FontAwesomeIcon icon={faPython} size="6x" />
-                    </div>
-                </div>
-                <div className="col-1-of-6">
-                    <div className="u-text-center">
-                        <FontAwesomeIcon icon={faGitAlt} size="6x" />
-                    </div>
-                </div>
-                <div className="col-1-of-6">
-                    <div className="u-text-center">
                         <FontAwesomeIcon icon={faAws} size="6x" />
                     </div>
                 </div>
@@ -66,6 +56,16 @@ function ToolBelt() {
                 <div className="col-1-of-6">
                     <div className="u-text-center">
                         <FontAwesomeIcon icon={faDocker} size="6x" />
+                    </div>
+                </div>
+                <div className="col-1-of-6">
+                    <div className="u-text-center">
+                        <FontAwesomeIcon icon={faPython} size="6x" />
+                    </div>
+                </div>
+                <div className="col-1-of-6">
+                    <div className="u-text-center">
+                        <FontAwesomeIcon icon={faGitAlt} size="6x" />
                     </div>
                 </div>
             </div>
