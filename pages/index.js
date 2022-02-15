@@ -24,9 +24,11 @@ function Home(props) {
       </section>
       <section className="section-summary">
         <div className="container">
-          <h2 className='heading-secondary'>About Me</h2>
           <div className="row">
             <div className="col">
+              <div className="u-text-center">
+                <h2 className='heading-secondary u-margin-small'>About Me</h2>
+              </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
             </div>
             <div className="col">
