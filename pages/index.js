@@ -25,13 +25,13 @@ function Home(props) {
       <section className="section-summary">
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col-1-of-2">
               <div className="u-text-center">
                 <h2 className='heading-secondary u-margin-small'>About Me</h2>
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
             </div>
-            <div className="col">
+            <div className="col-1-of-2">
               <img src='https://via.placeholder.com/350/fffffff' alt='profile photo'></img>
             </div>
           </div>
