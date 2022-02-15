@@ -24,7 +24,7 @@ function Home(props) {
       </section>
       <section className="section-summary">
         <div className="container">
-          <h2>About Me</h2>
+          <h2 className='heading-secondary'>About Me</h2>
           <div className="row">
             <div className="col">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
@@ -38,7 +38,7 @@ function Home(props) {
       <section className="section-toolbelt">
         <div className="container">
           <div className="u-text-center">
-            <h2>My Toolkit</h2>
+            <h2 className='heading-secondary'>My Toolkit</h2>
           </div>
 
           <div className="row">
