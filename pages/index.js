@@ -37,7 +37,10 @@ function Home(props) {
       </section>
       <section className="section-toolbelt">
         <div className="container">
-          <h2>My Toolkit</h2>
+          <div className="u-text-center">
+            <h2>My Toolkit</h2>
+          </div>
+
           <div className="row">
             <div className="col"></div>
             <div className="col"></div>
