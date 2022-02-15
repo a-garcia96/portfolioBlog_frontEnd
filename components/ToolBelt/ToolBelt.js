@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3, faJs, faReact, faNodeJs, faSass, faMicrosoft, faPython, faGitAlt, faAws } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3, faJs, faReact, faNodeJs, faSass, faMicrosoft, faPython, faGitAlt, faAws, faBootstrap, faDocker } from '@fortawesome/free-brands-svg-icons';
 
 function ToolBelt() {
     return (
@@ -60,12 +60,12 @@ function ToolBelt() {
                 </div>
                 <div className="col-1-of-6">
                     <div className="u-text-center">
-                        <FontAwesomeIcon icon={faMicrosoft} size="6x" />
+                        <FontAwesomeIcon icon={faBootstrap} size="6x" />
                     </div>
                 </div>
                 <div className="col-1-of-6">
                     <div className="u-text-center">
-                        <FontAwesomeIcon icon={faMicrosoft} size="6x" />
+                        <FontAwesomeIcon icon={faDocker} size="6x" />
                     </div>
                 </div>
             </div>
