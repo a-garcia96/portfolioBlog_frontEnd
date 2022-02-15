@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import Header from '../components/Header/Header';
 import ToolBelt from '../components/ToolBelt/ToolBelt';
-import HomeLatestPosts from '../components/HomeLatestPosts/HomeLatestPosts';
+import HomeLatestPosts from '../components/FeaturedPosts/FeaturedPosts';
 
 axios.defaults.httpsAgent = new https.Agent({
   rejectUnauthorized: false,

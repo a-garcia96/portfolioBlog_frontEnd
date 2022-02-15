@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import PostPreview from "../PostPreview/PostPreview";
 
-export default function HomeLatestPosts({ posts }) {
+export default function FeaturedPosts({ posts }) {
     const [latestPosts, setLatestPosts] = useState([]);
 
     useEffect(() => {
