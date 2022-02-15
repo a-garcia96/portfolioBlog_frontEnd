@@ -1,0 +1,18 @@
+.home-page {
+
+    &__section-homeHeader {
+
+    }
+
+    &__section-summary {
+
+    }
+
+    &__section-toolbelt {
+
+    }
+
+    & > *:not(:last-child) {
+        margin-bottom: 10rem;
+    }
+}

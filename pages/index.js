@@ -14,12 +14,12 @@ axios.defaults.httpsAgent = new https.Agent({
 function Home(props) {
 
   return (
-    <>
+    <div className='home-page'>
       <Head>
         <title>{props.homeData.title}</title>
         <meta name="description" content={props.homeData.description} />
       </Head>
-      <section className="section-homeHeader">
+      <section className="home-page__section-homeHeader">
         <Header homeData={props.homeData} />
       </section>
       <section className="section-summary">
@@ -49,7 +49,7 @@ function Home(props) {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
