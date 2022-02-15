@@ -1,3 +1,6 @@
-$color-primary: #0A192E;
-$color-secondary: #5A1807;
+// COLORS
+$color-primary-dark: #0A192E;
+$color-primary-light: #317eeb;
+$color-secondary-dark: #5A1807;
+$color-secondary-light: lighten(#5A1807, 40%);
 $color-text-primary: #eee;

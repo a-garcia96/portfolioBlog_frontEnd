@@ -24,8 +24,8 @@
         }
 
         a:hover{
-            color: lighten($color-secondary, 40%);
-            border-bottom: 3px solid lighten($color-secondary, 40%);
+            color: $color-secondary-light;
+            border-bottom: 3px solid $color-secondary-light;
             animation: highlightHover .3s ease-in;
         }
     }
@@ -37,7 +37,7 @@
     }
 
     25% {
-        color: lighten($color-secondary, 40%);
+        color: $color-secondary-light;
     }
 
     75% {
@@ -45,8 +45,8 @@
     }
 
     100% {
-        color: lighten($color-secondary, 40%);
-        border-bottom: 3px solid lighten($color-secondary, 40%);
+        color: $color-secondary-light;
+        border-bottom: 3px solid $color-secondary-light;
     }
 }
 
