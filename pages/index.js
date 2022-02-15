@@ -40,14 +40,13 @@ function Home(props) {
       <section className="section-toolbelt">
         <div className="container">
           <div className="u-text-center">
-            <h2 className='heading-secondary'>My Toolkit</h2>
+            <h2 className='heading-secondary u-margin-small'>My Toolkit</h2>
           </div>
-
-          <div className="row">
-            <div className="col"></div>
-            <div className="col"></div>
-          </div>
+          <ToolBelt />
         </div>
+      </section>
+      <section className="section-featured-posts">
+
       </section>
     </div>
   );
