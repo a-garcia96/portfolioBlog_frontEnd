@@ -1,4 +1,20 @@
+@media screen and (max-width: 65rem) {
+    html {
+        font-size: 57.5%;
+    }
+}
 
+@media screen and (max-width: 45rem) {
+    html {
+        font-size: 52.5%;
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    html {
+        font-size: 47.5%;
+    }
+}
 
 p{
     font-size: 1.6rem;
