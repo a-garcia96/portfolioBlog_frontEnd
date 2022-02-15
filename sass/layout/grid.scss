@@ -2,3 +2,10 @@
     width: 65vw;
     margin: 0 auto;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+}
