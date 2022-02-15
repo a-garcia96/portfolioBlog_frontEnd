@@ -19,14 +19,29 @@ function Home(props) {
         <title>{props.homeData.title}</title>
         <meta name="description" content={props.homeData.description} />
       </Head>
-      <Header homeData={props.homeData} />
-      <section>
-        <div className='container'>
-          <h2>ABT</h2>
-          <img src='https://via.placeholder.com/350/fffffff' alt='profile photo'></img>
-          
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A lacus vestibulum sed arcu non odio euismod. Nisi est sit amet facilisis. Sit amet porttitor eget dolor morbi non arcu risus. Eleifend quam adipiscing vitae proin sagittis nisl. Congue quisque egestas diam in arcu cursus euismod. At in tellus integer feugiat scelerisque. Nunc eget lorem dolor sed viverra ipsum nunc. Imperdiet massa tincidunt nunc pulvinar. Justo nec ultrices dui sapien eget. A arcu cursus vitae congue mauris rhoncus.</p>
-          <ToolBelt />
+      <section className="section-homeHeader">
+        <Header homeData={props.homeData} />
+      </section>
+      <section className="section-summary">
+        <div className="container">
+          <h2>About Me</h2>
+          <div className="row">
+            <div className="col">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
+            </div>
+            <div className="col">
+              <img src='https://via.placeholder.com/350/fffffff' alt='profile photo'></img>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section-toolbelt">
+        <div className="container">
+          <h2>My Toolkit</h2>
+          <div className="row">
+            <div className="col"></div>
+            <div className="col"></div>
+          </div>
         </div>
       </section>
     </>
