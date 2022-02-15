@@ -3,7 +3,7 @@ import Link from "next/link"
 
 import NavBar from "../NavBar/NavBar"
 
-function HomeHeader({ homeData }) {
+function Header({ homeData }) {
 
     return (
         <section className="home-header">
@@ -27,4 +27,4 @@ function HomeHeader({ homeData }) {
     )
 }
 
-export default HomeHeader;
+export default Header;

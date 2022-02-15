@@ -8,10 +8,10 @@
 @import "./base/typography.scss";
 
 // COMPONENTS
-@import "../components/HomeHeader/particles.scss";
+@import "./components/particles.scss";
 @import "../components/NavBar/NavBar.scss";
 // @import "../components/PostPreview/PostPreview.scss";
-@import "../components/HomeHeader/HomeHeader.scss";
+@import "./components/header.scss";
 @import "../components/HomeLatestPosts/featuredPosts.scss";
 
 // LAYOUT

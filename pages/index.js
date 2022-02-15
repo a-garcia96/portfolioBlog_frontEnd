@@ -3,7 +3,7 @@ import https from "https";
 import Head from 'next/head';
 import Image from 'next/image';
 
-import HomeHeader from '../components/HomeHeader/HomeHeader';
+import Header from '../components/Header/Header';
 import ToolBelt from '../components/ToolBelt/ToolBelt';
 import HomeLatestPosts from '../components/HomeLatestPosts/HomeLatestPosts';
 
@@ -19,7 +19,7 @@ function Home(props) {
         <title>{props.homeData.title}</title>
         <meta name="description" content={props.homeData.description} />
       </Head>
-      <HomeHeader homeData={props.homeData} />
+      <Header homeData={props.homeData} />
       <section>
         <div className='container'>
           <h2>ABT</h2>
