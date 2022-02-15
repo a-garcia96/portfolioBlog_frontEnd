@@ -60,7 +60,7 @@ function ToolBelt() {
                 </div>
                 <div className="col-1-of-6">
                     <div className="u-text-center">
-                        <FontAwesomeIcon icon={faBootstrap} size="6x" />
+                        <img className="toolbelt__icon-terraform" src="https://symbols.getvecta.com/stencil_97/45_terraform-icon.0fedccc574.svg" alt="terraform" />
                     </div>
                 </div>
                 <div className="col-1-of-6">
