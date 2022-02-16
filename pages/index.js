@@ -22,17 +22,19 @@ function Home(props) {
       <section className="home-page__section-homeHeader">
         <Header homeData={props.homeData} />
       </section>
-      <section className="section-summary">
+      <section className="home-page__section-summary">
         <div className="container">
           <div className="row">
             <div className="col-1-of-2">
               <div className="u-text-center">
-                <h2 className='heading-secondary u-margin-small'>About Me</h2>
+                <h2 className='heading-secondary u-margin-small'>Passionate at heart</h2>
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
             </div>
             <div className="col-1-of-2">
-              <img className='home-page__profile-photo' src='https://myportfolioblogbucket.s3.us-west-1.amazonaws.com/me-profile.png' alt='profile photo'></img>
+              <div className="home-page__profile-photo">
+                &nbsp;
+              </div>
             </div>
           </div>
         </div>
