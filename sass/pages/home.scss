@@ -5,7 +5,7 @@
     }
 
     &__section-summary {
-
+        
     }
 
     &__section-toolbelt {
@@ -14,5 +14,9 @@
 
     & > *:not(:last-child) {
         margin-bottom: 10rem;
+    }
+
+    &__profile-photo {
+        width: 3rem;
     }
 }

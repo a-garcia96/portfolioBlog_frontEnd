@@ -32,7 +32,7 @@ function Home(props) {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
             </div>
             <div className="col-1-of-2">
-              <img src='https://via.placeholder.com/350/fffffff' alt='profile photo'></img>
+              <img className='section-summary__profile-photo' src='https://myportfolioblogbucket.s3.us-west-1.amazonaws.com/me-profile.png' alt='profile photo'></img>
             </div>
           </div>
         </div>

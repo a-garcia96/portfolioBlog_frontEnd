@@ -40,7 +40,7 @@ function ToolBelt() {
                 </div>
                 <div className="col-1-of-6">
                     <div className="u-text-center">
-                        <FontAwesomeIcon icon={faMicrosoft} size="6x" />
+                    <img className="toolbelt__icon-terraform" src="https://myportfolioblogbucket.s3.us-west-1.amazonaws.com/azure.svg" alt="terraform" />
                     </div>
                 </div>
                 <div className="col-1-of-6">
@@ -50,7 +50,7 @@ function ToolBelt() {
                 </div>
                 <div className="col-1-of-6">
                     <div className="u-text-center">
-                        <img className="toolbelt__icon-terraform" src="https://symbols.getvecta.com/stencil_97/45_terraform-icon.0fedccc574.svg" alt="terraform" />
+                        <img className="toolbelt__icon-terraform" src="https://myportfolioblogbucket.s3.us-west-1.amazonaws.com/terraformio-icon.svg" alt="terraform" />
                     </div>
                 </div>
                 <div className="col-1-of-6">
