@@ -26,10 +26,13 @@ function Home(props) {
         <div className="container">
           <div className="row">
             <div className="col-1-of-2">
-              <div className="u-text-center">
-                <h2 className='heading-secondary u-margin-small'>Passionate at heart</h2>
+              <div className="u-vertical-align">
+                <div className="u-text-center">
+                  <h2 className='heading-secondary u-margin-small'>Passionate at heart</h2>
+                </div>
+                <p className='u-margin-small'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
+                <button className='button button__secondary'><a className='button__link' href="#">Read more &rarr;</a></button>
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
             </div>
             <div className="col-1-of-2">
               <div className="home-page__profile-photo-container">

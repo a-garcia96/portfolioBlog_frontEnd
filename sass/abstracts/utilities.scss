@@ -2,10 +2,27 @@
     text-align: center;
 }
 
-.u-text-highlight {
+.u-text-highlight--1 {
     color: $color-secondary-light;
+}
+
+.u-text-highlight--2 {
+    color: $color-primary-light;
 }
 
 .u-margin-small {
     margin-bottom: 3rem;
+}
+
+.u-padding-large {
+    padding: 15rem;
+}
+
+.u-vertical-align {
+    padding: 31% 0;
+}
+
+.u-align-right {
+    position: absolute;
+    right: 0;
 }
