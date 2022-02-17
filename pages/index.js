@@ -32,8 +32,10 @@ function Home(props) {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
             </div>
             <div className="col-1-of-2">
-              <div className="home-page__profile-photo">
-                &nbsp;
+              <div className="home-page__profile-photo-container">
+                <div className="home-page__profile-photo">
+                  &nbsp;
+                </div>
               </div>
             </div>
           </div>
