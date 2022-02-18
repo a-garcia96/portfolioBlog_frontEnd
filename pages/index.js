@@ -24,20 +24,20 @@ function Home(props) {
       </section>
       <section className="home-page__section-summary">
         <div className="container">
-          <div className="row">
-            <div className="col-1-of-2">
-              <div className="u-vertical-align">
-                <div className="u-text-center">
+          <div className="about-card">
+            <div className="row">
+              <div className="col-1-of-2">
+                <div className="">
                   <h2 className='heading-secondary u-margin-small'>Passionate at heart</h2>
                 </div>
                 <p className='u-margin-small'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea recusandae itaque numquam omnis facilis voluptatibus natus perferendis tenetur, vitae porro sed veritatis quia, consectetur quae. Temporibus quod asperiores optio.</p>
                 <button className='button button__secondary'><a className='button__link' href="#">Read more &rarr;</a></button>
               </div>
-            </div>
-            <div className="col-1-of-2">
-              <div className="home-page__profile-photo-container">
-                <div className="home-page__profile-photo">
-                  &nbsp;
+              <div className="col-1-of-2">
+                <div className="home-page__profile-photo-container">
+                  <div className="home-page__profile-photo">
+                    &nbsp;
+                  </div>
                 </div>
               </div>
             </div>
