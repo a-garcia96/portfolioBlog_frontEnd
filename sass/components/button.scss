@@ -2,6 +2,10 @@
     border: none;
     border-radius: 3px;
 
+    &__primary {
+        background-color: $color-secondary-light;
+    }
+
     &__secondary {
         background-color: $color-primary-light;
     }
